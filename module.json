@@ -1,0 +1,46 @@
+{
+  "id": "custom-cosm",
+  "title": "Un module ou integrer les Cosm personnalises",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "styles": [
+      "./cosm.css"
+  ],
+  "esmodules": [
+    "./modif.js"
+  ],
+  "languages": [
+      {
+          "lang": "en",
+          "name": "English",
+          "path": "languages/en.json",
+          "flags": {}
+      },
+      {
+          "lang": "fr",
+          "name": "Français",
+          "path": "languages/fr.json",
+          "flags": {}
+      },
+      {
+          "lang": "de",
+          "name": "German",
+          "path": "languages/de.json",
+          "flags": {}
+      },
+      {
+          "lang": "es",
+          "name": "Español",
+          "path": "languages/es.json",
+          "flags": {}
+      }
+  ],
+  "authors": [
+    {
+      "name": "Durak"
+    }
+  ]
+}
